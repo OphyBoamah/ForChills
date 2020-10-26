@@ -37,6 +37,7 @@ function App() {
   return (
     <div>
       <div className="searchBox">
+        <h1 className="forchills-logo">ForChills App</h1>
       <form onSubmit={handleOnSubmit}>
         <input className="search" type="text"
           value={searchTerm}

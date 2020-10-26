@@ -91,11 +91,23 @@ body {
 
 .searchBox {
   background-color: #373b69;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
-  justify-content: flex-end;
+  padding-left:4rem;
+  padding-right:4rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.forchills-logo {
+  color: lightgray;
+}
+
+.forchills-logo:hover {
+  color: #fff;
+  cursor: pointer;
+}
 .search {
   font-family: inherit;
   font-size: 1.2rem;
